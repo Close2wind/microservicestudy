@@ -1,0 +1,14 @@
+server:
+  port: 3344
+
+spring:
+  application:
+    name: microservicecloud-rest
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/Close2wind/microservicecloud-config.git
+#          username: close2wind
+#          password: i1m2z5e8n9g6
+#          uri: git@github.com:Close2wind/microservicecloud-rest.git

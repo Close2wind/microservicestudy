@@ -1,0 +1,7 @@
+spring:
+  cloud:
+    config:
+      name: microservicecloud-config-dept-client #需要从github上读取的资源名称
+      profile: dev
+      label: master
+      uri: http://config3344.com:3344 #SpingCloudConfig获取的服务地址
